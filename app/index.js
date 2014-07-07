@@ -29,6 +29,15 @@ module.exports = yeoman.generators.Base.extend({
     }
   },
 
+  save: function () {
+    var options = {};
+    files.forEach(function (file) {
+      options[file] = this.options[file];
+    }, this);
+
+    this.config.set(options);
+  },
+
   writeFiles: function () {
     files.forEach(function (file) {
       if (this.options[file]) {
