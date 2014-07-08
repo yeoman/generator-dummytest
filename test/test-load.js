@@ -2,9 +2,9 @@
 
 var assert = require('assert');
 
-describe('common generator', function () {
+describe('dummytest generator', function () {
   it('can be imported without blowing up', function () {
-    var app = require('../app');
-    assert(app !== undefined);
+    assert(require('../app') !== undefined);
+    assert(require('../controller') !== undefined);
   });
 });

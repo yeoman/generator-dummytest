@@ -6,14 +6,14 @@ module.exports = yeoman.generators.Base.extend({
   constructor: function () {
     yeoman.generators.Base.apply(this, arguments);
 
-    this.option('apppy', {
+    this.option('controller', {
       type: Boolean,
-      desc: 'Want some Apppy?',
+      desc: 'Want some Controller?',
       defaults: true
     });
   },
 
-  askFor: function () {
-    this.log(this.options.apppy.toString());
+  wantController: function () {
+    this.log(this.options.controller.toString());
   }
 });
