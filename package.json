@@ -1,6 +1,6 @@
 {
   "name": "generator-dummytest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -17,8 +17,7 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "yo": ">=1.2.0"
   }
