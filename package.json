@@ -17,7 +17,7 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "dependencies": {},
+  "dependencies": {"yeoman-generator": "^0.17.1"},
   "peerDependencies": {
     "yo": ">=1.2.0"
   }
